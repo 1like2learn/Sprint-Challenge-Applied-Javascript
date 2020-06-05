@@ -49,7 +49,7 @@ function makeArticle(article){
 
 axios.get('https://lambda-times-backend.herokuapp.com/articles')
 .then(response =>{
-    console.log(response)
+    // console.log(response)
     response.data.articles.bootstrap.forEach(article =>{
         makeArticle(article)
     })
