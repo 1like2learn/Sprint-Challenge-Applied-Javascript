@@ -26,11 +26,3 @@ axios.get('https://lambda-times-backend.herokuapp.com/topics')
 .catch(error =>{
     console.log(error)
 })
-
-// const tab = document.createElement('div')
-        
-// tab.classList.add('tab')
-
-// tab.textContent = 'whatever'
-
-// document.querySelector('.topics').appendChild(tab)
