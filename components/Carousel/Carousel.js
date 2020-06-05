@@ -18,7 +18,7 @@
   </div>
 */
 function carousel(){
-  debugger
+  // debugger
   const carousel = document.createElement('div')
   const leftButton = document.createElement('div')
   const mountains = document.createElement('img')
@@ -48,4 +48,4 @@ function carousel(){
   document.querySelector('.carousel-container').appendChild(carousel)
 }
 
-carousel()
+// carousel()

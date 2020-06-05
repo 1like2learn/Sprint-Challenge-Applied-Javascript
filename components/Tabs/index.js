@@ -10,7 +10,7 @@
 
 axios.get('https://lambda-times-backend.herokuapp.com/topics')
 .then(response =>{
-    console.log(response.data.topics)
+    // console.log(response.data.topics)
     //response.data.topics = array of five
     // debugger
     response.data.topics.forEach(topic => {
